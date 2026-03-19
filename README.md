@@ -3,13 +3,15 @@
 
 Running on desktop
 ```
-cd examples/example1
 cargo run
 ```
 
 Running on web
 ```
-wasm-pack build examples/example1 --target web
+wasm-pack build --target web
 Change line in index.html file to point to .js file
 python -m http.server
 ```
+
+
+Ultimately I want a way to spit out a index.html + a pkg dir with everything ready to go for a web deploy
