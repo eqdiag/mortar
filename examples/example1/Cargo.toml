@@ -1,11 +1,15 @@
 [package]
-name = "mortar"
+name = "example1"
 version = "0.1.0"
 authors = ["Daniel Engel <https://github.com/eqdiag>"]
 edition = "2018"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "example1"
+path = "src/lib.rs"
 
 [dependencies]
 anyhow = "1.0"
