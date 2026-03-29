@@ -1,6 +1,14 @@
 # mortar
 
 
+TODOS
+- [ ] create builders for common wgpu objects 
+- [ ] create builders for common graphics/compute structures (gcore)
+- [ ] basic drawing library for creative coding
+- [ ] simple ui library, can be plugged into games
+- [ ] OOP game engine framework
+- [ ] ECS game engine framework
+
 Running on desktop
 ```
 cargo run
