@@ -1,5 +1,21 @@
 # mortar
 
+## Game 1
+- at the level of app/game, apps have screens
+- screens have same interface as below...game has one active screen at a time
+- uiscreen type can be specialized for drawing ui elements
+- screens can delegate to other screens for overlays, transparency,etc
+- keep board square for game 1
+- create simple rendercontext type for drawing shapes (wraps wgpu)
+- math library
+- use palette for colors
+- make game feel interactive (color changes,etc)
+- l2 after game 1
+- [ ] onTick(double nanoseconds) for update
+- [ ] onDraw() method
+- [ ] onResize(size)
+- [ ] onKeyPressed()
+- [ ] onMouseDragged()
 
 TODOS
 - [ ] create builders for common wgpu objects 
