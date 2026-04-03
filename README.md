@@ -30,3 +30,16 @@ Running on desktop
 cargo runs
 ```
 
+## Notes to self
+- math (dir)
+    - vec.rs
+    - matrix.rs
+- graphics (dir)
+    - types.rs: helpers for building up wgpu types
+    - render_context.rs: type that makes building graphics applications much easier
+    - ui.rs: basic ui components built on render_context
+- core (dir)
+    - app flow stuff, entry point
+- engine (dir)
+    - oop engine stuff
+    - ecs engine stuff
